@@ -206,7 +206,7 @@ elif page == "📤 Report Item":
             # Pre-fill your verified number for testing
             owner_contact = st.text_input(
                 "Your phone number",
-                value="+916206148522",
+                value="",  #ENTER A NUMBER 
                 help="Twilio verified number for testing notifications"
             )
             
